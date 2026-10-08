@@ -20,7 +20,7 @@ Compara o tempo de alocação, escrita, leitura e liberação de blocos de memó
 - Duas VMs com a mesma configuração de hardware virtual (vCPUs, RAM, disco) e o mesmo hipervisor.
 - Windows 11 em uma e Debian 13 na outra.
 - Pelo menos 4 GB de RAM em cada VM (o maior bloco tem 1.000 MB).
-- A mesma versão do Python nas duas VMs. No experimento original as versões foram diferentes (3.14.8 no Windows e 3.13.5 no Debian), o que é uma limitação. Para reproduzir com rigor, instale a mesma versão nos dois sistemas, por exemplo Python 3.13.
+- A mesma versão do Python nas duas VMs. Para reproduzir com rigor, instale a mesma versão nos dois sistemas, por exemplo Python 3.13.
 - `benchmark.py` usa só a biblioteca padrão. `pandas` e `matplotlib` são necessários apenas para `plotar.py`.
 
 ## 1. Preparar o ambiente
